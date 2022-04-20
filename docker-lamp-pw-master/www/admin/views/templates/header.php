@@ -22,5 +22,6 @@
             <a href="index.php?controller=main&action=logout">Logout</a>
             <h2>Clientes</h2>
             <a href="?controller=clients&action=listClients" id="register">Listar clientes</a>
+            <a href="?controller=clients&action=insertClient" id="newClient">Novo cliente</a>
         </nav>
         <article class="article">

@@ -64,6 +64,14 @@ session_start();
                         case 'listClients':
                             $client -> listClients();
                         break;
+
+                        case 'insertClient':
+                            $client -> insertClient();
+                        break;
+
+                        case 'insertClientAction':
+                            $client -> insertClientAction();
+                        break;
                     }
                 }
             break;
